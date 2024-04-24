@@ -1,0 +1,21 @@
+{
+  "identifier": "main",
+  "description": "permissions that were migrated from v1",
+  "local": true,
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "path:default",
+    "event:default",
+    "app:default",
+    "resources:default",
+    "menu:default",
+    "tray:default",
+    "window:default",
+    "window:allow-show",
+    "window:allow-hide",
+    "window:allow-is-visible",
+    "window:allow-set-visible-on-all-workspaces"
+  ]
+}

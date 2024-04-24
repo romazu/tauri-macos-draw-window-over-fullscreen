@@ -1,6 +1,7 @@
-const {appWindow } = window.__TAURI__.window;
+const {getCurrent } = window.__TAURI__.webviewWindow;
 
 async function toggleWindowVisibility() {
+  const appWindow = getCurrent()
   const isVisible = await appWindow.isVisible();
   if (isVisible) {
     console.log("hide")
